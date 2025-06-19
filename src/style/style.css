@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(15, 13, 12);
+  font-family: "Fira Sans", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(15, 13, 12);;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  background-color: #262626;
+  color: #fff;
+}
+
+.nav-link.active {
+  background-color: rgb(64, 64, 64);
+  font-weight: 500;
+}
+
+.navbar-nav a {
+  border-radius: 8px;
+}
+
+main {
+  margin-top: 100px;
+}

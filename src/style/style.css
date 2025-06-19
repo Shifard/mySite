@@ -32,5 +32,62 @@ body {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 18rem;
+}
+
+#about {
+  margin-bottom: 80px;
+}
+
+.greetings, .about-me{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.about-me {
+  margin-bottom: 3rem;
+  line-height: 2.2rem;
+}
+
+.social a{
+  transition: all 0.5s;
+}
+
+.social a:hover{
+  background-color: rgb(48, 48, 48);;
+} 
+
+#tools {
+  margin-top: 10rem;
+}
+
+.tech-stack, .projects {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 5rem !important; 
+}
+
+#project {
+  margin-top: 10rem;
+}
+
+#project .card-body {
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
 }
